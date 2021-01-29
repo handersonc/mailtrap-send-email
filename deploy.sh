@@ -1,0 +1,1 @@
+gcloud functions deploy sendEmail --runtime nodejs10 --trigger-topic new-user --project liu-profile-api-dev --env-vars-file .env_dev.yaml
